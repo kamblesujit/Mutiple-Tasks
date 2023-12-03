@@ -1,0 +1,26 @@
+@page
+@model Multiple_Tasks.ExcelFiles.ProductReportsModel
+@{
+}
+<table style="width:auto">
+    <thead>
+        <tr style="font-weight:bold">
+            <td>Product Name</td>
+            <td>Description</td>
+            <td>Price</td>
+        </tr>
+
+    </thead>
+
+    <tr><td>Mouse</td><td>Laptop Mouse</td><td>300</td></tr><tr><td>Key Board</td><td>Laptop KeyBoard</td><td>250</td></tr><tr><td>HeadSets</td><td>Laptop HeadSets</td><td>270</td></tr><tr><td>Speaker</td><td>Laptop Speaker</td><td>500</td></tr><tr><td>Printer</td><td>Laptop Printer</td><td>2200</td></tr>
+    <!--<tr>
+        <td>Product Name</td>
+        <td>Description</td>
+        <td>Price</td>
+    </tr>
+    <tr>
+        <td>Product Name</td>
+        <td>Description</td>
+        <td>Price</td>
+    </tr>-->
+</table>

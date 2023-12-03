@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Multiple_Tasks</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="ExcelFileStored\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="QRCoder" Version="1.3.6" />
+    <PackageReference Include="QRCoderNetCore" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
